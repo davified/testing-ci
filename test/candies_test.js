@@ -3,6 +3,7 @@
 const expect = require('chai').expect
 const supertest = require('supertest')
 const api = supertest('http://localhost:3000')
+const app = require('../app')
 
 // start writing our tests. this is the javascript asynchronous version of rspec.
 describe('GET /candies', () => {

@@ -27,3 +27,5 @@ app.use('/candies', router)
 app.listen(port, () => {
   console.log(`listening on port ${port}`)
 })
+
+module.exports = app // we need to add this so that we can run tests in codeship
